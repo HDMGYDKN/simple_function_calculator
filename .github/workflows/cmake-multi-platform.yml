@@ -74,5 +74,8 @@ jobs:
       run: ctest --build-config ${{ matrix.build_type }}
   
     - uses: actions/download-artifact@v4
+      with:
+        name: calculator
+        path: ./build/
     - name: Display structure of downloaded files
       run: ls -R
