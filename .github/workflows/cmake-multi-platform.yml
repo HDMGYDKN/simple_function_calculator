@@ -29,6 +29,7 @@ jobs:
         include:
           - os: windows-latest
             c_compiler: clang
+            cpp_compiler: clang++
           - os: ubuntu-latest
             c_compiler: clang
             cpp_compiler: clang++
@@ -42,7 +43,6 @@ jobs:
             c_compiler: cl
           - os: ubuntu-latest
             c_compiler: gcc
-            cpp_compiler: g++
 
     steps:
     - uses: actions/checkout@v4
