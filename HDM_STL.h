@@ -350,7 +350,7 @@ void add_in_pointer_function(){
 }
 high_precision_fraction help_h(MFE* from,dynamic_array<high_precision_fraction> input){
     std::cout<<"Hi, thank you for using the function calculater.(Input help(version) to check out the version of the calculator.) This is basically a calculater,but what's more is that you can calculate functions. Allow me to demonstrate:\n"\
-    "You can input simple expressions like 1+1, 2^2, etc. Here are the rools:\n"\
+    "You can input simple expressions like 1+1, 2^2, etc. Here are the rules:\n"\
     "note: in here, 0 stands for false, 1 stands for true.\n"\
     "+ stands for plus, means you add two things together. 1+1=2 \n"\
     "- stands for minus, means you let a number minus another. 2-1=1 \n"\
